@@ -33,7 +33,7 @@ class ArrowView: UIView {
         let width = rect.width - CGFloat(2.0 * buffer)
         
         // Create the arrow path
-        var path = UIBezierPath()
+        let path = UIBezierPath()
         path.moveToPoint(CGPoint(x: buffer, y: height + buffer))
         path.addLineToPoint(CGPoint(x: width / 2 + buffer, y: 2 * buffer))
         path.addLineToPoint(CGPoint(x: width + buffer, y: height + buffer))
@@ -61,7 +61,7 @@ class ArrowView: UIView {
         })
     }
     
-    required init(coder aDecoder: NSCoder) {
+    required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
 }

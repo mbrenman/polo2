@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01BD852BA86342167651693B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C97ABFF61170BCAD2E3E2F3 /* libPods.a */; };
 		3A4B34001B6AE6520070FDA0 /* ArrowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4B33FF1B6AE6520070FDA0 /* ArrowView.swift */; };
 		3A90C9C41B5DB733006DB71B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A90C9C31B5DB733006DB71B /* AppDelegate.swift */; };
 		3A90C9C61B5DB733006DB71B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A90C9C51B5DB733006DB71B /* ViewController.swift */; };
@@ -40,6 +41,9 @@
 		3A90C9D81B5DB733006DB71B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3A90C9D91B5DB733006DB71B /* PoloTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoloTests.swift; sourceTree = "<group>"; };
 		3A90C9E31B5DBBF3006DB71B /* LocationMath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationMath.swift; sourceTree = "<group>"; };
+		6C97ABFF61170BCAD2E3E2F3 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A1897D58E45BB752AC698DD /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		A5F9FE9AD3A4B6F113B725AC /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01BD852BA86342167651693B /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +71,8 @@
 				3A90C9C01B5DB733006DB71B /* Polo */,
 				3A90C9D61B5DB733006DB71B /* PoloTests */,
 				3A90C9BF1B5DB733006DB71B /* Products */,
+				EFF1605B5C0EC4A381DEDBFA /* Pods */,
+				B557C3790EE03CF4917BD39A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -118,6 +125,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		B557C3790EE03CF4917BD39A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C97ABFF61170BCAD2E3E2F3 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EFF1605B5C0EC4A381DEDBFA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A5F9FE9AD3A4B6F113B725AC /* Pods.debug.xcconfig */,
+				8A1897D58E45BB752AC698DD /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -125,9 +149,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3A90C9DD1B5DB733006DB71B /* Build configuration list for PBXNativeTarget "Polo" */;
 			buildPhases = (
+				F2D24FA813CCDAEDA15FC8C4 /* Check Pods Manifest.lock */,
 				3A90C9BA1B5DB733006DB71B /* Sources */,
 				3A90C9BB1B5DB733006DB71B /* Frameworks */,
 				3A90C9BC1B5DB733006DB71B /* Resources */,
+				5AFA15FF8E9478869BCBA071 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -162,6 +188,8 @@
 		3A90C9B61B5DB733006DB71B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = MattAndJulian;
 				TargetAttributes = {
@@ -212,6 +240,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5AFA15FF8E9478869BCBA071 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2D24FA813CCDAEDA15FC8C4 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3A90C9BA1B5DB733006DB71B /* Sources */ = {
@@ -299,7 +360,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -338,7 +399,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -348,6 +409,7 @@
 		};
 		3A90C9DE1B5DB733006DB71B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5F9FE9AD3A4B6F113B725AC /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Polo/Info.plist;
@@ -358,6 +420,7 @@
 		};
 		3A90C9DF1B5DB733006DB71B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A1897D58E45BB752AC698DD /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Polo/Info.plist;

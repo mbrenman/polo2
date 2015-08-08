@@ -19,16 +19,16 @@ class ViewController: UIViewController {
         let boston = CLLocation(latitude: 42.3601, longitude: 71.0589)
         
         // Run tests on distance/bearing
-        println("PHL -> BOS")
+        print("PHL -> BOS")
         test(philly, there : boston)
         
-        println("BOS -> PHL")
+        print("BOS -> PHL")
         test(boston, there : philly)
         
-        println("PHL -> PHL")
+        print("PHL -> PHL")
         test(philly, there : philly)
         
-        println("BOS -> BOS")
+        print("BOS -> BOS")
         test(boston, there : boston)
         
         // Create the arrow subview
@@ -40,13 +40,13 @@ class ViewController: UIViewController {
         
         // Add and animate
         self.view.addSubview(arrowView)
-        arrowView.setAngle(bearingBetweenPoints(philly, boston)!)
+        arrowView.setAngle(bearingBetweenPoints(philly, there: boston)!)
     }
     
     func test(here: CLLocation, there : CLLocation) {
-        println("Distance: \(distanceBetweenPoints(here, there))")
-        println("Bearing   \(bearingBetweenPoints(here, there))")
-        println()
+        print("Distance: \(distanceBetweenPoints(here, there: there))")
+        print("Bearing   \(bearingBetweenPoints(here, there: there))")
+        print("")
     }
 
     override func didReceiveMemoryWarning() {
