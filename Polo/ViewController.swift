@@ -8,13 +8,14 @@
 
 import UIKit
 import CoreLocation
+import SDK
 
 class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // Create two test locations
+//         Create two test locations
         let philly = CLLocation(latitude: 39.9500, longitude: 75.1667)
         let boston = CLLocation(latitude: 42.3601, longitude: 71.0589)
         

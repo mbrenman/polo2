@@ -10,7 +10,7 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   SDK:
-    :commit: 7f53abbc67ffe67ec983e253e1fb41ece3b0a422
+    :commit: 6d92369ee00d6c39c0145b2c1f41497fd8af7f03
     :git: https://github.com/julianlocke/PoloSDK.git
 
 SPEC CHECKSUMS:

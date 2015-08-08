@@ -19,14 +19,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		775275FBAAE739B85605B7F5EF9B2A2F /* PBXContainerItemProxy */ = {
+		AA980AD607C0D09F74FF4BB35A7895FD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 1A01A10F10BFC55CA3FB48CA917EB3A6;
 			remoteInfo = SDK;
 		};
-		8F7A8D69848C0551EA7BF58BA7C0001E /* PBXContainerItemProxy */ = {
+		EF4CE24C805042E0A2FFCDCFF270A66F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -219,7 +219,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				4D72C3303E1E8CE2536F77D71D0079F9 /* PBXTargetDependency */,
+				C409991832091D4C2A87274C76098B59 /* PBXTargetDependency */,
 			);
 			name = SDK;
 			productName = SDK;
@@ -254,7 +254,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				C97BC99177626890FBF4F8D91383B820 /* PBXTargetDependency */,
+				D99B45E07393D7234CF20D266AC4F067 /* PBXTargetDependency */,
 			);
 			name = Pods;
 			productName = Pods;
@@ -336,17 +336,17 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4D72C3303E1E8CE2536F77D71D0079F9 /* PBXTargetDependency */ = {
+		C409991832091D4C2A87274C76098B59 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "SDK-SDK";
 			target = 2C413AD7785DF8A66ACBE85090438AC7 /* SDK-SDK */;
-			targetProxy = 8F7A8D69848C0551EA7BF58BA7C0001E /* PBXContainerItemProxy */;
+			targetProxy = EF4CE24C805042E0A2FFCDCFF270A66F /* PBXContainerItemProxy */;
 		};
-		C97BC99177626890FBF4F8D91383B820 /* PBXTargetDependency */ = {
+		D99B45E07393D7234CF20D266AC4F067 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SDK;
 			target = 1A01A10F10BFC55CA3FB48CA917EB3A6 /* SDK */;
-			targetProxy = 775275FBAAE739B85605B7F5EF9B2A2F /* PBXContainerItemProxy */;
+			targetProxy = AA980AD607C0D09F74FF4BB35A7895FD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 

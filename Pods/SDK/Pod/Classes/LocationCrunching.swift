@@ -14,12 +14,12 @@ import Darwin
 let METERS_PER_MILE = 1609.34
 
 // Conversions
-func degreesToRadians(degrees: Double) -> Double { return degrees * M_PI / 180.0 }
-func radiansToDegrees(radians: Double) -> Double { return radians * 180.0 / M_PI }
-func metersToMiles(meters: Double) -> Double { return meters / METERS_PER_MILE }
+public func degreesToRadians(degrees: Double) -> Double { return degrees * M_PI / 180.0 }
+public func radiansToDegrees(radians: Double) -> Double { return radians * 180.0 / M_PI }
+public func metersToMiles(meters: Double) -> Double { return meters / METERS_PER_MILE }
 
 // Location Number Crunching
-func distanceBetweenPoints(here : CLLocation?, there : CLLocation?) -> Double? {
+public func distanceBetweenPoints(here : CLLocation?, there : CLLocation?) -> Double? {
     if (here != nil && there != nil) {
         let distInMeters = here!.distanceFromLocation(there!)
         
@@ -32,7 +32,7 @@ func distanceBetweenPoints(here : CLLocation?, there : CLLocation?) -> Double? {
     }
 }
 
-func bearingBetweenPoints(here : CLLocation?, there : CLLocation?) -> Double? {
+public func bearingBetweenPoints(here : CLLocation?, there : CLLocation?) -> Double? {
     if (here != nil && there != nil) {
         // Convert everything to radians
         let thereLat = degreesToRadians(there!.coordinate.latitude)
