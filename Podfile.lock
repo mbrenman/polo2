@@ -1,1 +1,19 @@
+PODS:
+  - SDK (0.1.0)
+
+DEPENDENCIES:
+  - SDK (from `https://github.com/julianlocke/PoloSDK.git`)
+
+EXTERNAL SOURCES:
+  SDK:
+    :git: https://github.com/julianlocke/PoloSDK.git
+
+CHECKOUT OPTIONS:
+  SDK:
+    :commit: 7f53abbc67ffe67ec983e253e1fb41ece3b0a422
+    :git: https://github.com/julianlocke/PoloSDK.git
+
+SPEC CHECKSUMS:
+  SDK: 592f79f3b55b03b4ee796a615ef6c7c517c504db
+
 COCOAPODS: 0.38.2
