@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "9CFB897CFE09CC6F8192E0404B08F2302361F538",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "9CFB897CFE09CC6F8192E0404B08F2302361F538" : 0,
+    "4B3C56315769D8630CE2E2C880FFF3640ED84142" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "EA1B5937-776D-495C-8232-178C6FFBC28A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "9CFB897CFE09CC6F8192E0404B08F2302361F538" : "polo2\/",
+    "4B3C56315769D8630CE2E2C880FFF3640ED84142" : "PoloSDK\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Polo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 203,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Polo.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:julianlocke\/PoloSDK.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4B3C56315769D8630CE2E2C880FFF3640ED84142"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:mbrenman\/polo2.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9CFB897CFE09CC6F8192E0404B08F2302361F538"
+    }
+  ]
+}

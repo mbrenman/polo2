@@ -19,19 +19,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		AA980AD607C0D09F74FF4BB35A7895FD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1A01A10F10BFC55CA3FB48CA917EB3A6;
-			remoteInfo = SDK;
-		};
-		EF4CE24C805042E0A2FFCDCFF270A66F /* PBXContainerItemProxy */ = {
+		CDE77DF66785221DC6285CBC106BE24B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2C413AD7785DF8A66ACBE85090438AC7;
 			remoteInfo = "SDK-SDK";
+		};
+		F3971DB2753DF7F37A349DA9F89A5B33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A01A10F10BFC55CA3FB48CA917EB3A6;
+			remoteInfo = SDK;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -219,7 +219,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				C409991832091D4C2A87274C76098B59 /* PBXTargetDependency */,
+				70C3A663BA31F42121A9C96DDF013DC4 /* PBXTargetDependency */,
 			);
 			name = SDK;
 			productName = SDK;
@@ -254,7 +254,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				D99B45E07393D7234CF20D266AC4F067 /* PBXTargetDependency */,
+				391300F8776AD70D3CCE4C1A52BCEE19 /* PBXTargetDependency */,
 			);
 			name = Pods;
 			productName = Pods;
@@ -336,17 +336,17 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		C409991832091D4C2A87274C76098B59 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "SDK-SDK";
-			target = 2C413AD7785DF8A66ACBE85090438AC7 /* SDK-SDK */;
-			targetProxy = EF4CE24C805042E0A2FFCDCFF270A66F /* PBXContainerItemProxy */;
-		};
-		D99B45E07393D7234CF20D266AC4F067 /* PBXTargetDependency */ = {
+		391300F8776AD70D3CCE4C1A52BCEE19 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SDK;
 			target = 1A01A10F10BFC55CA3FB48CA917EB3A6 /* SDK */;
-			targetProxy = AA980AD607C0D09F74FF4BB35A7895FD /* PBXContainerItemProxy */;
+			targetProxy = F3971DB2753DF7F37A349DA9F89A5B33 /* PBXContainerItemProxy */;
+		};
+		70C3A663BA31F42121A9C96DDF013DC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SDK-SDK";
+			target = 2C413AD7785DF8A66ACBE85090438AC7 /* SDK-SDK */;
+			targetProxy = CDE77DF66785221DC6285CBC106BE24B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
